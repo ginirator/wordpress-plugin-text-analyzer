@@ -1,0 +1,34 @@
+<div>Enter your text:</div>
+<div id="word-analyzer-content-wrapper">
+    <div class="form-container">
+        <!-- Your form goes here -->
+        <form id="word-analyzer-form">
+            <div class="input-textarea-container">
+                <textarea id="userText" name="userText" rows="10" cols="50"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <div class="panel-container">
+        <!-- Container for the analyzed data -->
+        <div class="panel panel-default analyzedDataPanel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Analysis Results</h3>
+            </div>
+            <div id="analyzedData" class="panel-body">
+                <!-- Analysis results will be inserted here -->
+            </div>
+        </div>
+
+        <div class="panel panel-default keywordsBox analyzedDataPanel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Keyword Density</h3>
+            </div>
+            <div id="kwd-density" class="panel-body">
+                <!-- Keyword density data will be inserted here -->
+                <div id="kwd-density-data"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
